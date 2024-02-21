@@ -6,7 +6,7 @@ from sklearn.naive_bayes import CategoricalNB
 from sklearn.metrics import roc_auc_score, accuracy_score, f1_score
 from sklearn.preprocessing import LabelEncoder
 
-# Load the dataset
+# Loading the dataset
 file_path = r'C:\Users\sontu\Desktop\NEU\Masters IoT\Sem 2\ML\HW2\mushroom\agaricus-lepiota.data'
 columns = ['class', 'cap-shape', 'cap-surface', 'cap-color', 'bruises', 'odor',
            'gill-attachment', 'gill-spacing', 'gill-size', 'gill-color', 'stalk-shape',
